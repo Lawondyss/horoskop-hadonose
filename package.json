@@ -1,0 +1,16 @@
+{
+  "name": "horoskop-hadonose",
+  "version": "1.0.0",
+  "description": "Satirický horoskop pro znamení Hadonoše",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

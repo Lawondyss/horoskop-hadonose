@@ -1,0 +1,28 @@
+name: Denní Hadonoš
+
+on:
+  schedule:
+    # Spustí se každý den v 6:00 UTC
+    - cron: '0 6 * * *'
+  workflow_dispatch: # Možnost ručního spuštění
+
+jobs:
+  horoscope:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Generate and Post Horoscope
+        env:
+          MASTODON_INSTANCE: ${{ secrets.MASTODON_INSTANCE }}
+          MASTODON_TOKEN: ${{ secrets.MASTODON_TOKEN }}
+        run: npm start
