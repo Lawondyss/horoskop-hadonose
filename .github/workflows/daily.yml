@@ -1,4 +1,4 @@
-name: Denní Hadonoš
+name: Denní horoskop
 
 on:
   schedule:
@@ -9,6 +9,7 @@ on:
 jobs:
   horoscope:
     runs-on: ubuntu-latest
+    environment: prod
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
