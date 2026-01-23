@@ -149,7 +149,7 @@ export const tensions = [
     'na zázrak čekáš na špatném nádraží, vlaky nejezdí.',
     'limity se dnes ukazují s nečekanou jasností.',
     'odvaha a hloupost dnes splývají v jedno.',
-    'nelíbí-li se ti stav věcí, změna je možná, ale pivo je jistější.',
+    'nelíbí-li se ti stav věcí, změna je možná, ale bůčo je jistější.',
     'lekce pokory přichází bez varování.',
     'intuice dnes podává zkreslené informace.',
     'dno má sklep, pokud jsi to ještě nezjistil.',
