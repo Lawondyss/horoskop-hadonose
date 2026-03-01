@@ -26,7 +26,7 @@ export const openings = [
     'Známky a znamení přicházejí, ale jejich písmo je nečitelnější než tvůj rukopis, protože',
     'Kofein a existenciální úzkost tvoří harmonickou dvojku v pozadí dne, protože',
     'Charisma mokrého ručníku může být překvapivě atraktivní pro určité publikum, protože',
-    'Mít pravdu je dnes luxus, který si okolí nehodlá dovolit uznat, protože',
+    'Mít pravdu je dnes luxus, který ti okolí nehodlá uznat, protože',
     'Neslibovat nic je dnes forma sebeobrany, ne lenosti, protože',
     'Mlhovina možností je hustá, výhled do budoucnosti zůstává zamlžený, protože',
     'Cítíš se jako beta verze sebe sama, plná bugů a nezdokumentovaných funkcí, protože',
